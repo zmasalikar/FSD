@@ -1,0 +1,95 @@
+Basics:
+- Line of code is also called as statement
+- Programming means writing code
+- Code is written from L2R one statement per line
+- COMMENTS are statements or codes that will not execute denoted with // at the beginning for single line english statements and */ 'multi-line statements' /*
+- any 2 types of variables are used to equalize using the EQUALITY symbol denoted by '==' which ignores the data type and the '===' takes into consideration the data type.
+
+EX:
+var India = "country";
+var country = '"India"';
+
+var equalize = (India==country);
+console.log(equalize);
+var equalize1 = (country===India);
+console.log(equalize1);
+
+var n1 = 20;
+var n2 = "20";
+
+var equalize2 = (20=="20");
+console.log(equalize2);
+var equalize3 = (20==="20");
+console.log(equalize3);
+
+TYPES OF VARIABLES:
+Float: Used to print numbers with decimals
+Integers: Used to print numbers without decimal values
+Strings: Are denoted with "" or ''. Can be number or letter based
+Boolean: Used to validate statements using 'true' or 'false'
+Arrays: collections of same or different kinds of variables
+
+OPERATORS:
+var n1 = 10;
+var n2 = 20;
+
+var ans=(n1+n2);
+console.log(ans);
+
+var ans1=(n1*n2);
+console.log(ans1);
+
+var ans2=(n1%n2);
+console.log(ans2);
+
+var ans3=(n1-n2);
+console.log(ans3);
+
+
+ADVANCED OPERATORS:
+Modulus=remainder 
+a = 4/2
+
+
+var x = 10;
+
+var a = x++; 
+var b = ++x;
+var c = x--;
+var d = --x;
+
+console.log(a, b, c, d);
+
+
+CONCATENATE & CREATE: 
+
+- Used to add strings
+- No Arithmetic operations can be performed on strings but addition
+- UTF-8 characters can be included
+
+EX:
+var fullname = "FirstName" + ' ' + "Last Name";
+console.log(fullname)
+
+var str = "India" + " " + "is" + " " + 'the' + " " + 'best' + " " + 'country';
+console.log(str)
+
+-----------------------------------------------------------------------------
+
+LENGTH: 
+Declare a new variable for size of the original variable and find the length of original variable using .length 
+
+var str = "India" + " " + "is" + " " + 'the' + " " + 'best' + " " + 'country';
+console.log(str);
+var size = (str.length);
+console.log(size);
+
+-----------------------------------------------------------------------------
+
+EX:
+var x = 10;
+var a = 11;
+var y = a;
+var x = a;
+console.log(x, y, a);
+

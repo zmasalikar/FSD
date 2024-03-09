@@ -1,0 +1,18 @@
+This is a Github learning session
+press Ctrl + S for saving the file...
+
+git init > This comand is used to establish the connection between the local as well as the Githun Repo
+
+git remote add origin https://github.com/zmasalikar/git-learning.git > This command tells you that where you need to 
+store this file/folder...
+
+git fetch -v: this command is used to find out where to download the Repo
+
+git add .:This will push my files to staging area where files cannot be edited..
+
+git commit -m "message inside the double quotes" :
+This command tells us that we need to staore this in local Repo
+
+Git commit -m "Test Git message"
+
+Github HUB: https://github.com/SAI-MOHAN-B/git-and-github
