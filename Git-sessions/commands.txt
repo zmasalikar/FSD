@@ -16,3 +16,21 @@ This command tells us that we need to staore this in local Repo
 Git commit -m "Test Git message"
 
 Github HUB: https://github.com/SAI-MOHAN-B/git-and-github
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zmasalikar/FSD
+git push -u origin main
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M feature_new
+git remote add origin https://github.com/zmasalikar/FSD
+git push -u origin feature_new
+
+
