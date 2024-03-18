@@ -1,0 +1,40 @@
+Question: Compare if the JSON Objects have similar values
+var obj1 = { 
+name: "Person 1", 
+age: 5 
+};
+
+var obj2 = { 
+age: 5, name: 
+"Person 1" 
+};
+
+Answer:
+
+var obj1 = { 
+    name: "Person 1", 
+    age: 5,
+    };
+
+var obj2 = { 
+    age: 5, 
+    name: "Person 1" 
+};
+
+var ok1 = Object.keys(obj1);
+var ok2 = Object.keys(obj2);
+
+if (ok1.length !== ok2.length) {
+    console.log("Number of Properties do not match, therefore can't compare");
+} else {
+      for (var i = 0; i < ok1.length; i++) {
+        var key = ok1[i];
+        if (obj1[key] !== obj2[key]) {
+            console.log("Objects have different keys or values");
+            }
+    }
+    var equalnumber = true;
+    if (equalnumber) {
+        console.log("Objects have the same keys and values");
+    }
+}
