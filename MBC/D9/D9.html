@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSDD9 HTML</title>
+
+    <style>
+        body {
+            background-color: rgb(6, 42, 70);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+        }
+        table {
+            background-color: rgb(251, 140, 97);
+            padding: 20px 40px 20px 40px;
+            display: inline-block;
+            border-collapse: separate;
+            border-spacing: 0 10px;
+}
+
+        #div {
+            display: inline-table;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+        }
+        tr {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size: 72px; color: rgb(213, 84, 49);">FSDD9 Day 2 - HTML</h1> 
+    <div id="div">
+        <form method="POST" class="shadow">
+            <table>
+                <tr class="tr">
+                    <td><label for="fname" style="color:rgb(150, 7, 7);">First Name:</label></td>
+                    <td><input type="text" id="fname" name="first-name"></td>
+                </tr>
+                <tr class="tr">
+                    <td><label for="mname" style="color:rgb(7, 139, 13);">Middle Name:</label></td>
+                    <td><input type="text" id="mname" name="middle-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname" style="color:rgb(125, 4, 90)">Last Name:</label></td>
+                    <td><input type="text" id="lname" name="last-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email" style="color:rgb(14, 83, 140);">Email address:</label></td>
+                    <td><input type="email" id="Email" name="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password" style="color:rgb(62, 59, 59);">Password:</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
