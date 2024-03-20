@@ -1,0 +1,19 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"  # Or your build command
+  publish = "MBC"  # Adjust to your main folder name
+
+[[redirects]]
+  from = "/D8"         # URL path for D8 project
+  to = "/D8/D8.html"   # Path to D8 HTML file
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/D9"         # URL path for D9 project
+  to = "/D9/D9.html"   # Path to D9 HTML file
+  status = 200
+  force = true
+
+  
